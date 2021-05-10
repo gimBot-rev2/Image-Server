@@ -5,8 +5,8 @@ const multer = require('multer')
 const app = express()
 
 const PORT = process.env.PORT || 5053
-const appname = `http://localhost:${PORT}/`
-
+//const appname = `http://localhost:${PORT}/`
+const appname = 'https://image-server-template-v1.herokuapp.com/'
 const storage = multer({ dest: "store/" })
 app.use(express.json())
 
